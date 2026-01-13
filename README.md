@@ -13,6 +13,20 @@ Mini clone de Twitter en PHP (MVC simple) avec timeline, profils, recherche et m
 - PHP 8+
 - MySQL/MariaDB
 
+## Lancer avec Docker (recommande)
+1) Construire et demarrer
+```
+docker compose up --build
+```
+
+2) Ouvrir l'application
+```
+http://localhost:8000
+```
+
+La base est initialisee automatiquement depuis `Config/twitter.sql`.
+Identifiants DB par defaut: `twitter` / `twitter` (root: `root`).
+
 ## Installation rapide
 1) Creer la base
 ```

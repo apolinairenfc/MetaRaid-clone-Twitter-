@@ -1,0 +1,28 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_NAME: twitter
+      DB_USER: twitter
+      DB_PASSWORD: twitter
+    volumes:
+      - ./:/var/www/html
+
+  db:
+    image: mariadb:10.11
+    environment:
+      MARIADB_DATABASE: twitter
+      MARIADB_USER: twitter
+      MARIADB_PASSWORD: twitter
+      MARIADB_ROOT_PASSWORD: root
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./Config/twitter.sql:/docker-entrypoint-initdb.d/00-schema.sql:ro
+
+volumes:
+  db_data:
