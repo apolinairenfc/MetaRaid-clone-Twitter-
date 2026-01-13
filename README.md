@@ -1,4 +1,4 @@
-# NxggaChain (Twitter clone)
+# MetaRaid (Twitter clone)
 
 Mini clone de Twitter en PHP (MVC simple) avec timeline, profils, recherche et messagerie.
 
