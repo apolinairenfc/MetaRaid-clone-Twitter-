@@ -1,6 +1,13 @@
-# MetaRaid (Twitter clone)
+# METARAID (Tweet Academie — clone Twitter)
+Projet web PHP (MVC simple) avec MySQL, realise dans le cadre de Web@academie by Epitech — fevrier 2025.
+Equipe de 4 (duree : 1 mois) — chef d'equipe. Role : full-stack, avec une forte implication sur le back-end.
+Objectif : recreer un reseau social type Twitter, le plus proche possible en termes de fonctionnalites et de comportement, avec une base de donnees relationnelle et une interface responsive.
 
-Mini clone de Twitter en PHP (MVC simple) avec timeline, profils, recherche et messagerie.
+## Objectifs pedagogiques (Tweet Academie)
+- Construire une application web complete en PHP / HTML-CSS / JS avec base de donnees relationnelle
+- Travailler des notions cles : Ajax, micro-framework CSS + grille responsive (affichage multi-colonnes desktop / 1 colonne mobile)
+- Concevoir et partager un schema relationnel puis utiliser une DB commune a toute la promotion (fichier SQL commun a la racine)
+- Travailler en groupe : decoupage des taches, communication, gestion de projet, livrable "beton" dans un temps limite
 
 ## Fonctionnalites
 - Authentification et inscription
